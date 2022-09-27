@@ -1,0 +1,151 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+  }
+  
+  header {
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Nav Bar */
+  #nav_bar {
+    float: right;
+  }
+  
+  #nav_bar li {
+    display: inline-block;
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+  
+  #nav_bar #sign_in {
+    background: #4887ef; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    color: #404040;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  li.nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  #sign_in:hover { 
+    box-shadow: 1px 1px 5px #999;
+  }
+  
+  #sign_in {
+    color: #fff;
+  }
+  
+  /* Google */
+  .google #google_logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+  }
+
+  #google_logo img {
+    max-width: 300px;
+  }
+  
+  .form {
+    text-align: center;
+  }
+  
+  #form-search { 
+    width: 550px;
+    line-height: 40px;
+    padding: 20px 10px;
+    border-radius: 30px 30px;
+    border: solid 0.75px grey;
+  }
+  
+  .form #form-search {
+    padding: 0 8px;
+  }
+  
+  .buttons {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 300px;
+  }
+  
+#google_search {
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 3px;
+    padding: 10px 15px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#google_search:hover {
+    border: 1px solid rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+  }
+
+#im_feeling_lucky {
+    border: 1px solid #ccc;
+    background: transparent;
+  border-radius: 3px;
+  padding: 10px 15px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#im_feeling_lucky:hover {
+    border: 1px solid rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+  }
+
+  /* Footer */
+  footer  {
+    background: #8e8e8e;
+    border-top: solid 2px #e4e4e4;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+  }
+  
+  footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 13px;
+  }
+  
+  footer ul {
+    float: left;
+    padding: 1px;
+  }
+  
+  footer ul a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-right {
+    float: right;
+  }
+  
